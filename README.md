@@ -16,7 +16,7 @@ Professor: Arnaldo Teixeira (DTI-FATECSP)
   - [Instalando](#instalando)
   - [Conteúdo](#conteúdo)
     - [Aulas](#aulas)
-      - [Operando o sistema:](#operando-o-sistema)
+      - [Operando o sistema](#operando-o-sistema)
   - [Links Didáticos](#links-didáticos)
 
 ## Instalando
@@ -28,7 +28,7 @@ Instale o [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) ou utlize
 
 ### Aulas
 
-#### Operando o sistema:
+#### Operando o sistema
 
 - Acessando o GNU/Linux
 - Trocando a senha

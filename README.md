@@ -1,6 +1,7 @@
-# Programação Orientada à Objetos
+# Sistemas Operacionais II
 
-![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![LINUX](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
+![SHELL](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 Repositório da disciplina ISO002 Sistemas Operacionas II. FATEC São Paulo. 02/2023
 
@@ -10,11 +11,12 @@ Professor: Arnaldo Teixeira (DTI-FATECSP)
 
 ## Index
 
-- [Programação Orientada à Objetos](#programação-orientada-à-objetos)
+- [Sistemas Operacionais II](#sistemas-operacionais-ii)
   - [Index](#index)
   - [Instalando](#instalando)
   - [Conteúdo](#conteúdo)
     - [Aulas](#aulas)
+      - [Operando o sistema:](#operando-o-sistema)
   - [Links Didáticos](#links-didáticos)
 
 ## Instalando
@@ -26,7 +28,28 @@ Instale o [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) ou utlize
 
 ### Aulas
 
-- []
+#### Operando o sistema:
+
+- Acessando o GNU/Linux
+- Trocando a senha
+- Ambiente de Trabalho - Linha de comando
+- Arquivos de personalização
+- Edição de texto
+- Interpretadores de comandos mais utilizados
+- Diretórios e arquivos
+  - Estrutura padrão dos diretórios (stndfs)
+  - Tipos de arquivos
+  - Mudando permissões de arquivos e diretórios
+  - Mudando dono/grupo de arquivos e diretórios
+  - Permissõe geradas por padrão
+- Redirecionando a entrada e saída padrão
+- Metacaracteres e pipes
+- Manipulando arquivos e diretórios
+  - Nomes de arquivos
+- Variáveis de ambiente
+- Algumas variáveis do Gnu/Linux
+- Manuais de comandos
+  - man
 
 ## Links Didáticos
 

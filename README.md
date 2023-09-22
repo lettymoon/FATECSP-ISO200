@@ -7,7 +7,7 @@ Repositório da disciplina ISO200 Sistemas Operacionas II. FATEC São Paulo. 02/
 
 Disciplina ministrada utlizando o Debian e suas versões.
 
-Professor: Arnaldo Teixeira (DTI-FATECSP)
+Professor: Arnaldo Rodrigues Teixeira (DTI-FATECSP)
 
 ## Index
 

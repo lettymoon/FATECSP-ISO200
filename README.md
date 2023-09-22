@@ -3,7 +3,7 @@
 ![LINUX](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
 ![SHELL](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-Repositório da disciplina ISO002 Sistemas Operacionas II. FATEC São Paulo. 02/2023
+Repositório da disciplina ISO200 Sistemas Operacionas II. FATEC São Paulo. 02/2023
 
 Disciplina ministrada utlizando o Debian e suas versões.
 

@@ -15,8 +15,8 @@ Professor: Arnaldo Rodrigues Teixeira (DTI-FATECSP)
   - [Index](#index)
   - [Instalando](#instalando)
   - [Conteúdo](#conteúdo)
-    - [Aulas](#aulas)
-      - [Operando o sistema](#operando-o-sistema)
+    - [Operando o sistema](#operando-o-sistema)
+  - [Aulas](#aulas)
   - [Links Didáticos](#links-didáticos)
 
 ## Instalando
@@ -26,9 +26,7 @@ Instale o [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) ou utlize
 
 ## Conteúdo
 
-### Aulas
-
-#### Operando o sistema
+### Operando o sistema
 
 - Acessando o GNU/Linux
 - Trocando a senha
@@ -50,6 +48,14 @@ Instale o [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) ou utlize
 - Algumas variáveis do Gnu/Linux
 - Manuais de comandos
   - man
+
+## Aulas
+
+- [Aula 01](aula1)
+- [Aula 02](aula2)
+- [Aula 03](aula3)
+- [Aula 04](aula4)
+- [Aula 05](aula5)
 
 ## Links Didáticos
 

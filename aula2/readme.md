@@ -130,7 +130,7 @@ Pode utilizar o **n** para buscar outra palavra igual após apertar **enter**.
 
 Por último, o comando **:h** faz aparecer o manuel do editor vim.
 
-Se depois disso tudo você acha que programar pelo vim é complicado, é porque realmente é, saia do vim e abra o vscode/atom/sublime/IntelliJ ou qualquer outra editor de sua escolha e seja feliz.
+Mesmo depois disso tudo se você acha o vim difícil, é porque de fato é, saia do vim e abra o vscode/atom/sublime/IntelliJ ou qualquer outra editor de sua escolha e seja feliz.
 
 ## 6) Interpretadores de comandos mais utilizados
 

@@ -68,7 +68,7 @@ Agora falando sobre o comando ```ls -l```, ele lista os arquivos do diretório, 
 
 ![ls -l](image-4.png)
 
-Essas informaçõessão separadas em colunas de 1 a 7. A coluna 1 (drwxrwxr-x) estão as permissões do arquivo ou diretório, na coluna 2 -----, na coluna 3 e 4 estão respectivamente o usuário e grupo dono do arquivo/diretório, na  coluna 5 está o tamanho do arquivo/diretório, e na coluna 6 estão data e hora que o arquivo/diretório foi modificado ou criado (no linux ubuntu é mostrado a data, dia e mês, e a hora, já no Debian é mostado apenas a data incluindo o ano).
+Essas informações são separadas em colunas de 1 a 7. A coluna 1 (drwxrwxr-x) estão as permissões do arquivo ou diretório, na coluna 2 -----, na coluna 3 e 4 estão respectivamente o usuário e grupo dono do arquivo/diretório, na coluna 5 está o tamanho do arquivo/diretório, e na coluna 6 estão data e hora que o arquivo/diretório foi modificado ou criado (no linux ubuntu é mostrado a data, dia e mês, e a hora, já no Debian é mostado apenas a data incluindo o ano).
 
 Exemplo:
 

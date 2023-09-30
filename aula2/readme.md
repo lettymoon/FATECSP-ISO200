@@ -181,11 +181,11 @@ Por exemplo, você pode criar um arquivo chamado **backup.sh** que contém coman
 
 3- No diretório /etc, que está localizado na pasta raiz do sistema (use **cd/** para ir para pasta raiz), contém o arquivo **shells**.
 Dê olhado utilizando o comando **ls -l etc/shells**.
-![etc/shells](image.png)
+![etc/shells](/iso2/aula2/imgs/image-10.png)
 
 O arquivo **/etc/shells** é um arquivo de texto simples que lista os interpretadores de comandos (shells) disponíveis no sistema, o usuŕio pode optar por mudar o tipo do shell entre os listados, utlizando o comando **chsh**:
 
-![shells](image-2.png)
+![shells](image-11png)
 
 ```bash
 chsh -s /caminho/do/novo/shell
@@ -198,21 +198,21 @@ O arquivo ```/etc/passwd``` é um arquivo de texto que armazena informações so
 
 Exemplo:
 
-![/etc/passwd](image-1.png)
+![/etc/passwd](image-12.png)
 
 No meu sistema o shell padrão do root é o bash.
 
 4 - Você pode temporariamente utilizar outro tipo de shell diferente do seu usário digitando o nome do shell e retornar para o shell padrão utilizando ```ctrl+d```.
 
-![dash](image-3.png)
+![dash](image-13.png)
 
 5- Para saber qual o tipo de shell está sendo utilizado use o seguinte comando: ```echo $SHELL```.
 
-![echo $SHELL](image-4.png)
+![echo $SHELL](image-14.png)
 
 6 - Você pode utilizar mais de um comando de uma vez se utilizar **&&** , **||** , **;**.
 
-![encadeamento de comandos](image-5.png)
+![encadeamento de comandos](image-15.png)
 
 ## 6.1) Encadeamento de comandos
 

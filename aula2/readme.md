@@ -18,7 +18,7 @@ Para verificar se o vim está instalado abra o terminal e digite "vim".
 
 Se aparecer uma tela assim é porque está.
 
-![vim-open](/iso2/aula2/imgs/image-1.png)
+![vim-open](image-1.png)
 
 Caso contrario, digite:
 
@@ -73,11 +73,11 @@ irá mover as linhas de 1 a 5 para a linha 10
 
 Exemplo:
 
-![vim-mov](/iso2/aula2/imgs/image-4.png)
+![vim-mov](image-4.png)
 
-![vim-mov](/iso2/aula2/imgs/image-5.png)
+![vim-mov](image-5.png)
 
-![vim-mov](/iso2/aula2/imgs/image-6.png)
+![vim-mov](image-6.png)
 
 #### Para copiar linhas
 
@@ -90,11 +90,11 @@ O **yy** vai selecionar a linha onde está o cursor e o **p** vai colar a linha 
 
 Exemplo:
 
-![vim-yy](/iso2/aula2/imgs/image-2.png)
+![vim-yy](image-2.png)
 
 No exemplo acima foi utilizado 13 linhas, o cursor está na linha 5, no modo comando foi utilizado o **yy**, na linha 10 será utilizado o comando **p**.
 
-![vim-p](/iso2/aula2/imgs/image-3.png)
+![vim-p](image-3.png)
 
 Já o comando **y2** seleciona a linha atual do cursor e mais duas linhas abaixo, o **y3** seleciona a linha atual do cursor e mais três linhas abaixo e assim sucessivamente. Depois é só usar o comando **p**.
 
@@ -112,11 +112,11 @@ Fuciona parecido com o **yy**, o comando **dd** vai apagar a linha na posição 
 
 Exemplo:
 
-![vim-split](/iso2/aula2/imgs/image-7.png)
+![vim-split](image-7.png)
 
 O diretório é aberto a partir do diretório raiz.
 
-![vim-split](/iso2/aula2/imgs/image-8.png)
+![vim-split](image-8.png)
 
 O comando ctrl+ww altera entres os arquivos. E **:only** para desfazer as divisões.
 
@@ -124,7 +124,7 @@ O comando ctrl+ww altera entres os arquivos. E **:only** para desfazer as divis�
 
 Para fazer um busca entre o texto é utilizado o comando **/palavra-procurada**.
 
-![vim-busca](/iso2/aula2/imgs/image-9.png)
+![vim-busca](image-9.png)
 
 Pode utilizar o **n** para buscar outra palavra igual após apertar **enter**.
 
@@ -181,7 +181,7 @@ Por exemplo, você pode criar um arquivo chamado **backup.sh** que contém coman
 
 3- No diretório /etc, que está localizado na pasta raiz do sistema (use **cd/** para ir para pasta raiz), contém o arquivo **shells**.
 Dê olhado utilizando o comando **ls -l etc/shells**.
-![etc/shells](/iso2/aula2/imgs/image-10.png)
+![etc/shells](image-10.png)
 
 O arquivo **/etc/shells** é um arquivo de texto simples que lista os interpretadores de comandos (shells) disponíveis no sistema, o usuŕio pode optar por mudar o tipo do shell entre os listados, utlizando o comando **chsh**:
 

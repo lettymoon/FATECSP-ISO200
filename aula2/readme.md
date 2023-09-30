@@ -181,11 +181,12 @@ Por exemplo, você pode criar um arquivo chamado **backup.sh** que contém coman
 
 3- No diretório /etc, que está localizado na pasta raiz do sistema (use **cd/** para ir para pasta raiz), contém o arquivo **shells**.
 Dê olhado utilizando o comando **ls -l etc/shells**.
+
 ![etc/shells](image-10.png)
 
 O arquivo **/etc/shells** é um arquivo de texto simples que lista os interpretadores de comandos (shells) disponíveis no sistema, o usuŕio pode optar por mudar o tipo do shell entre os listados, utlizando o comando **chsh**:
 
-![shells](image-11png)
+![shells](image-11.png)
 
 ```bash
 chsh -s /caminho/do/novo/shell

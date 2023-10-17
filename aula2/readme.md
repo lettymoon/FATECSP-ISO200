@@ -253,4 +253,4 @@ No meu sistema o shell padrão do root é o bash.
 
 ## conteudo da aula concluido
 
-## conteudo extra concluido
+## conteudo extra em andamento

@@ -53,7 +53,7 @@ Então, é comum a prática de evitar espaços e caracteres especiais ao nomear 
 
 ![cd . - atual](image-4.png)
 
-Os arquivos são objetos digitais que contêm dados ou informações. Eles podem ser criados por um processo de computador ou por meio de comandos dados por um usuário. E todos os arquivos devem possuir um nome e uma extenssão. 
+Os arquivos são objetos digitais que contêm dados ou informações. Eles podem ser criados por um processo de computador ou por meio de comandos dados por um usuário. E todos os arquivos devem possuir um nome e uma extenssão.
 
 A extensão de um arquivo é geralmente uma parte do nome do arquivo que segue um ponto (.) e é usada para indicar o tipo de arquivo, por exemplo, um arquivo de texto pode ter a extensão **.txt**, enquanto um arquivo de imagem pode ter a extensão **.jpg** ou **.png**. No entanto, as extensões não são obrigatórias para todos os tipos de arquivos.
 

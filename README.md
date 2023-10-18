@@ -63,3 +63,4 @@ Instale o [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) ou utlize
 - [GeeksforGeeks - Introduction to Linux Shell and Shell Scripting](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/?ref=shm)
 - [HackerRank - Linux Shell](https://www.hackerrank.com/domains/shell?filters%5Bsubdomains%5D%5B%5D=bash)
 - [Shell Scripting for Beginners](https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/)
+- [LPI Materiais Didáticos](https://learning.lpi.org/pt/learning-materials/learning-materials/)

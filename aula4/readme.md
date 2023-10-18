@@ -256,6 +256,10 @@ Atribuindo a permissão de execução ao outros:
 ``` touch meuarquivo.txt ```| vai criar um  arquivo vazio.
 ``` touch arquivo1.txt arquivo2.txt arquivo3.txt ```| pode criar mais de um arquivo por vez.
 ``` ls -l carta ``` | vai listar todos os arquivos que comecem com "**carta...**".
----
+
+## Bibliografia
+
+- [Red Hat](https://www.redhat.com/sysadmin/suid-sgid-sticky-bit)
+- [LPI](https://learning.lpi.org/pt/learning-materials/102-500/110/110.1/110.1_01/)
 
 ## não concluído

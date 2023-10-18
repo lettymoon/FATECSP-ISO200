@@ -204,3 +204,4 @@ Um exemplo disso é o diretório ``` /tmp ```
 ``` ls -l carta ``` | vai listar todos os arquivos que comecem com "**carta...**".
 
 ---
+## não concluído

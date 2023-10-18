@@ -5,6 +5,8 @@
 ```bash
 - Mudando permissões de arquivos e diretórios
     - Formato numérico octal
+    - Permissões suid
+- Extra: Como compilar códigos no linux
 ```
 
 ## Formato numérico octal
@@ -18,7 +20,7 @@ O farmato númerico octal é composto por 3 digitos a partir de um conjunto de o
 
 Exemplo:
 
-                                          R W X
+                                                 R W X
 
 |Binário|Octal|Permissão|
 |------|------|------|

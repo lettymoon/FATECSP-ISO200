@@ -248,6 +248,10 @@ Atribuindo a permissão de execução ao outros:
 
 ![2](image-15.png)
 
+Resumo:
+
+![resumo](image-16.png)
+
 ## Extra: alguns comandos utilizados durante a aula
 
 |Comando|Descrição|
@@ -261,5 +265,6 @@ Atribuindo a permissão de execução ao outros:
 
 - [Red Hat](https://www.redhat.com/sysadmin/suid-sgid-sticky-bit)
 - [LPI](https://learning.lpi.org/pt/learning-materials/102-500/110/110.1/110.1_01/)
+- [Guia Linux](https://guialinux.uniriotec.br/permissao-de-acesso/)
 
 ## não concluído

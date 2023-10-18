@@ -251,6 +251,10 @@ No meu sistema o shell padrão do root é o bash.
 
 ```pwd``` -> exibe sua localização do terminal (diretório atual).
 
+## Bibliografia
+
+- [TryHackMe: Toolbox: Vim](https://tryhackme.com/room/toolboxvim)
+
 ## conteudo da aula concluido
 
 ## conteudo extra em andamento

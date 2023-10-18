@@ -222,7 +222,7 @@ Agora podemos compilar.
 
 ![gcc](image-13.png)
 
-Certo, o gcc gerou o arquivo binário chamado main do meu código fonte, mas e agora? Agora é só executar esse arquivo binário chamado, assim: ```./ main```.
+Certo, o gcc gerou o arquivo binário chamado main do meu código fonte, mas e agora? Agora é só executar esse arquivo binário chamado main, assim: ```./ main```.
 
 ![./main](image-14.png)
 
@@ -241,7 +241,7 @@ Também podemos utilizar o terminal no vscode e compilar os códigos por lá:
 
 Linguagem Python:
 
-A lingaguem por interpretada e não compilada você deve executar o código, sempre precisar gerar um binário, mas tenho o python3 instalado.
+A linguaguem python por ser interpretada e não compilada você deve apenas executar o código, sem precisar gerar um binário, mas tenha o python3 instalado.
 
 Instalando:
 

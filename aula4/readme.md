@@ -166,10 +166,11 @@ Exemplo:
 |```chmod u-r <arquivo>```|Foi retirado a permssão leitura ao dono no arquivo.|
 |```chmod u=r <arquivo>```|Todas as permissões foram subtituidas pela a informada ao dono.|
 
-### Permissões especiais: SUID, SGID e Sticky bit
+## Permissões especiais: SUID, SGID e Sticky bit
 
-#### SUID (Set User ID): user + s(pecial)
-Quando a permissão SUID é definida, gera permissões temporárias para um usuário executar um programa ou arquivo com as permissões do proprietário do arquivo (geralmente o root), ou seja, é uma permissão temporarária que se dar a um arquivo como privilégios.
+### SUID (Set User ID): user + s(pecial)
+
+Essa permissão permite que o arquivo seja executado com privilégios de proprietário do arquivo.
 
 ![passwd](image-7.png)
 
@@ -177,22 +178,75 @@ Olhando o comando ``` /usr/bin/passwd ```, esse comando tem por padrão a permis
 
 Observe o s onde x normalmente indicaria permissões de execução para o usuário.
 
-#### SGID (Set Group ID): user + s(pecial)
-Quando a permissão sgid é definida em um diretório, gera permissões temporárias para um usuário executar um programa ou arquivo com as permissões do grupo do arquivo.
+### SGID (Set Group ID): user + s(pecial)
 
-s = quando o usuário e grupo tem permissão set.
-S = quando só o usuário tem a permissão, o grupo não.
+A permissão SGID pode ser definida em arquivos e diretórios, nos arquivos é semelhante à permissão SUID, mas os privilégios serão os mesmos do proprietário do grupo.
 
-Se o grupo proprietário não tiver permissões de execução, uma maiúscula S é usado.
+### Como saber se o arquivo tem o suid ou sgid ativado
 
-#### Stick bit: other + t(sticky):
-O sticky bit é um bit usado em permissões de diretórios para evitar a exclusão de seu conteúdo por outros usuários, mesmo que eles tenham permissão de escrita na pasta. Ele não afeta arquivos individualmente, e sim diretórios e seus arquivos contidos nele.
+#### Usando o comando ``` ls -l ```
 
-Somente o proprietário do arquivo e o usuário root podem excluir arquivos em uma pasta que possua o Sticky bit ativado.
+No lugar o x (executar) vai estar S ou s. A permissão SUID é representada pelo "s" (minúsculo) ou "S" (maiúsculo) na posição do usuário, enquanto a permissão SGID é representada pelo "s" (minúsculo) ou "S" (maiúsculo) na posição do grupo nas permissões de arquivo.
+
+| permissões | explicação |
+| ---------- | ---------- |
+| ``` -rwsr-xr-x ``` | A permissão SUID está ativada e pode ser executada (letra "s" minúscula na posição do usuário).
+| ``` -rwsr-xr-x ``` | A permissão SGID está ativada e pode ser executada (letra "s" minúscula na posição do grupo).
+
+O "s" minúsculo em rws indica a presença do SUID no arquivo, junto com a permissão de execução. Se, no lugar dele, houvesse um "S" maiúsculo (rwS), isso significaria que a permissão de execução presumida não foi definida.
+
+Por exemplo:
+
+![1](image-9.png)
+
+O arquivo arqcomp não tem a permissão de execução no usuário, se atribuirmos a permissão suid, ficará com o S.
+
+![2](image-12.png)
+
+Note que "S" maiúsculo indica que o suid está ativado, mas não tem permissão de execução, para isso permissa atribuir a permissão de execução ao arquivo.
+
+![3](image-13.png)
+
+Assim fica o "s" minúsculo com o suid ativado e com permissão de execução.
+
+#### Usando o comando ``` find ```
+
+O comando find pode ser usado para localizar todos os arquivos com permissões SUID ou SGID no sistema.
+
+Exemplo:
+
+| comando | explicação |
+| ------- | ---------- |
+|``` find / -type f -perm -4000 ```| para encontrar todos os arquivos com permissão SUID |
+|``` find / -type f -perm -2000 ```| para encontrar todos os arquivos com permissão SGID |
+
+Numericamente o suid é representado por 4000, e sgid por 2000. Isso será explicado na próxima aula.
+
+#### Usando o comando ``` stat ```
+
+``` bash
+stat nome_do_arquivo
+```
+
+O comando stat pode ser usado para exibir informações detalhadas sobre um arquivo, incluindo as permissões SUID e SGID.
+
+### Stick bit: other + t(sticky)
+
+O sticky bit é usado em diretórios como para evitar que usuários regulares excluam ou movam arquivos que não sejam seus.
+
+Somente o proprietário do arquivo e o usuário root podem excluir arquivos em um diretório que possua o Sticky bit ativado.
 
 Um exemplo disso é o diretório ``` /tmp ```
 
 ![/tmp/](image-8.png)
+
+Da mesma forma que se ativarmos o suid e sgid em um arquivo que não tem permissão de execução mostrará o "S" e não o "s", no sticky bit ocorre a mesma coisa. Se o diretório não tiver a permissão **o+x** irá mostrar o "T" e não o "t".
+
+![1](image-14.png)
+
+Atribuindo a permissão de execução ao outros:
+
+![2](image-15.png)
 
 ## Extra: alguns comandos utilizados durante a aula
 
@@ -202,6 +256,6 @@ Um exemplo disso é o diretório ``` /tmp ```
 ``` touch meuarquivo.txt ```| vai criar um  arquivo vazio.
 ``` touch arquivo1.txt arquivo2.txt arquivo3.txt ```| pode criar mais de um arquivo por vez.
 ``` ls -l carta ``` | vai listar todos os arquivos que comecem com "**carta...**".
-
 ---
+
 ## não concluído

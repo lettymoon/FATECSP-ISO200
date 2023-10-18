@@ -186,10 +186,21 @@ S = quando só o usuário tem a permissão, o grupo não.
 Se o grupo proprietário não tiver permissões de execução, uma maiúscula S é usado.
 
 #### Stick bit: other + t(sticky):
-O sticky bit é um bit usado em permissões de diretórios para evitar a exclusão de seu conteúdo por outros usuários, mesmo que eles tenham permissão de escrita na pasta. Ele não afeta arquivos individualmente, e sim diretórios e seus arquivos contidos nele. 
+O sticky bit é um bit usado em permissões de diretórios para evitar a exclusão de seu conteúdo por outros usuários, mesmo que eles tenham permissão de escrita na pasta. Ele não afeta arquivos individualmente, e sim diretórios e seus arquivos contidos nele.
 
 Somente o proprietário do arquivo e o usuário root podem excluir arquivos em uma pasta que possua o Sticky bit ativado.
 
 Um exemplo disso é o diretório ``` /tmp ```
 
 ![/tmp/](image-8.png)
+
+## Extra: alguns comandos utilizados durante a aula
+
+|Comando|Descrição|
+|------|------
+``` mkdir -p dir1/dir2/dir3 ```| para criar mais de um diretório em um único comando.
+``` touch meuarquivo.txt ```| vai criar um  arquivo vazio.
+``` touch arquivo1.txt arquivo2.txt arquivo3.txt ```| pode criar mais de um arquivo por vez.
+``` ls -l carta ``` | vai listar todos os arquivos que comecem com "**carta...**".
+
+---

@@ -134,6 +134,8 @@ Por último, o comando **:h** faz aparecer o manuel do editor vim.
 
 Mesmo depois disso tudo se você acha o vim difícil, é porque de fato é, saia do vim e abra o vscode/atom/sublime/IntelliJ ou qualquer outra editor de sua escolha e seja feliz.
 
+Aprenda mais sobre o editor vim [aqui](https://tryhackme.com/room/toolboxvim)
+
 ## 6) Interpretadores de comandos mais utilizados
 
 Reusmo:

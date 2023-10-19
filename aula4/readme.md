@@ -261,6 +261,8 @@ Resumo:
 ``` touch arquivo1.txt arquivo2.txt arquivo3.txt ```| pode criar mais de um arquivo por vez.
 ``` ls -l carta* ``` | vai listar todos os arquivos que comecem com "**carta...**".
 
+No readme de introdução do repositório [aqui](/README.md) tem uma parte de links didáticos para aprender um pouco mais sobre linux.
+
 ## Bibliografia
 
 - [Red Hat](https://www.redhat.com/sysadmin/suid-sgid-sticky-bit)

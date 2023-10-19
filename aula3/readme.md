@@ -100,6 +100,8 @@ Também tem essa imagem mais explicativa:
 
 ![file system](image-5.png)
 
+No readme de introdução do repositório [aqui](/README.md) tem uma parte de links didáticos para aprender um pouco mais sobre linux.
+
 ## Bibliografia
 
 - [Guia Foca GNU/Linux](https://www.ppgia.pucpr.br/pt/arquivos/techdocs/linux/foca-iniciante/ch-perm.html)

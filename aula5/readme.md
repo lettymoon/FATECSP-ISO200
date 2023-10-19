@@ -187,6 +187,8 @@ Esse comando vai dar permissão suid, todas as permissões ao dono e permissão 
 
 Agora execute sem precisar usar o comando sudo.
 
+Aprenda mais como escrever scripts em shell [aqui](https://tryhackme.com/room/bashscripting) e [aqui](https://www.hackerrank.com/domains/shell).
+
 ### Trocando o dono e grupo do script
 
 Pode trocar o dono e grupo de um arquivo para outro utilizando o comando ``` chown usuario:grupo <arquivo> ```, assim:
@@ -264,6 +266,8 @@ python3 arquivo.py
 Agora sua missão é pesquisar como executar um código em Pascal no linux.
 
 Utilize esse [site](https://aoredordoburacotudoebeira.wordpress.com/2012/03/23/free-pascal-no-windows-e-no-linux/).
+
+No readme de introdução do repositório [aqui](/README.md) tem uma parte de links didáticos para aprender um pouco mais sobre linux.
 
 ## Bibliografia
 

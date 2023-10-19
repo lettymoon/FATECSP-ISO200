@@ -225,33 +225,34 @@ No meu sistema o shell padrão do root é o bash.
 
 ## Extra: Alguns comandos utilizados na sala
 
-```cd``` -> Usado para entrar e sair de diretório:
-
-```cd <diretório>``` : vai entrar no diretório especificado
-
-```cd ..``` : vai para o diretório anterior ao atual
-
-```cd /``` : vai para o diretório raiz
-
-```cd ~``` : vai para o diretório pessoal
-
-```cd .``` : permanence no diretório atual (útil para scripts)
+| Comando | Descrição |
+|-------- |---------- |
+```cd```|usado para entrar e sair de diretório:
+```cd <diretório>```|vai entrar no diretório especificado
+```cd ..```|vai para o diretório anterior ao atual
+```cd /```|vai para o diretório raiz
+```cd ~```|vai para o diretório pessoal
+```cd .```|permanence no diretório atual (útil para scripts)
 
 ---
-
-```rm``` -> remove arquivos e diretórios
-
-```rm <arquivo>```
-
-```rmdir <diretório>```
-
----
-
-```mkdir``` -> criar diretórios
+| Comando | Descrição |
+|-------- |---------- |
+```rm```| remove arquivos e diretórios
+```rm <arquivo>```| remove arquivos
+```rmdir <diretório>```| remove diretórios vazios
+```rm -d <diretórios>```| remove diretórios
 
 ---
+| Comando | Descrição |
+|-------- |---------- |
+```mkdir```|criar diretórios
+```pwd```|exibe sua localização do terminal (diretório atual).
+``` cp <arquivo1> <arquivo2> ```| copia o arquivo1 no arquivo2 no mesmo diretório
+``` cp arquivo1 /../dir2 ```| copia o arquivo 1 no diretório dir2
+``` mv arquivo1 /../dir2 ```| move o arquivo1 para o diretório dir2
+``` file <arquivo> ```| informa o tipo do arquivo.
 
-```pwd``` -> exibe sua localização do terminal (diretório atual).
+![file arq.c](image-16.png)
 
 ## Bibliografia
 

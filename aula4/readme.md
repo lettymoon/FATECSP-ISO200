@@ -267,4 +267,6 @@ Resumo:
 - [LPI](https://learning.lpi.org/pt/learning-materials/102-500/110/110.1/110.1_01/)
 - [Guia Linux](https://guialinux.uniriotec.br/permissao-de-acesso/)
 
-## não concluído
+## conteúdo da aula não concluído
+
+![linux vs windows](linuxvswin11.jpg)

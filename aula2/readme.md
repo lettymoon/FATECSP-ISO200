@@ -258,3 +258,5 @@ No meu sistema o shell padrão do root é o bash.
 ## conteudo da aula concluido
 
 ## conteudo extra em andamento
+
+[CLICA AQUI](https://twitter.com/FredKraken/status/1711404437887930486)

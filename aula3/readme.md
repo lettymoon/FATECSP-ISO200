@@ -96,8 +96,14 @@ A localização dos diretórios e de alguns arquivos essenciais, é definida no 
 
 Veja mais [aqui](https://mange.ifrn.edu.br/site/doc-ubuntu-fr2pt_br/arvore-de-diretorios.html) ou [aqui](http://tics.ifsul.edu.br/matriz/conteudo/disciplinas/so/uc/1/2.html)
 
+Também tem essa imagem mais explicativa:
+
+![file system](image-5.png)
+
 ## Bibliografia
 
 - [Guia Foca GNU/Linux](https://www.ppgia.pucpr.br/pt/arquivos/techdocs/linux/foca-iniciante/ch-perm.html)
 
 ## conteúdo da aula concluído
+
+![linux](linux.png)

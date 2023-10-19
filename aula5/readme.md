@@ -272,3 +272,6 @@ Utilize esse [site](https://aoredordoburacotudoebeira.wordpress.com/2012/03/23/f
 ## conteúdo concluído
 
 ## conteúdo extra concluído
+
+![sudo eat](image-21.png)
+![install](image-22.png)

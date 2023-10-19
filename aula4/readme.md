@@ -68,11 +68,11 @@ Agora falando sobre o comando ```ls -l```, ele lista os arquivos do diretório, 
 
 ![ls -l](image-4.png)
 
-Essas informações são separadas em colunas de 1 a 7. 
+Essas informações são separadas em colunas de 1 a 7.
 
-A coluna 1 (drwxrwxr-x) estão as permissões do arquivo ou diretório. 
+A coluna 1 (drwxrwxr-x) estão as permissões do arquivo ou diretório.
 
-Na coluna 2 **FALTA PREENCHER AQUI**
+Na coluna 2 representa a quantidade de ligações físicas de um arquivo ou diretório.
 
 Na coluna 3 e 4 estão respectivamente o usuário e grupo dono do arquivo/diretório
 
@@ -112,7 +112,23 @@ Note que a permissão negada nesse exemplo é execucação no usuário, gravaç�
 
 ### Coluna 2
 
-# REUSMIR AQUI
+Quando você lista arquivos usando o **ls -l** na segunda coluna vai representar a quantidade de ligações físicas para o arquivo. Cada arquivo possui pelo menos uma ligação física, que é o próprio arquivo. Cada ligação física a mais no arquivo vai somar +1.
+
+Por exemplo, se a segunda linha do seu arquivo for 3, isso significa que o arquivo tem duas ligações, já que 1 é o próprio arquivo, +2 para cada ligação a mais no arquivo.
+
+No caso dos diretórios a segunda coluna vai representar a quantidade de subdiretórios. Cada diretório possui 2 ligações, uma para si e outra para o diretório pai, então cada subdiretório a mais no diretório vai ser somado a +2.
+
+Ligação física do diretório = quantidade de subdiretórios + 2.
+
+Exemplo:
+
+![coluna 2](image-17.png)
+
+Como criei dois subdiretórios dentro do diretório foi somado +2 ao 2, totalizando 4 ligações.
+
+![coluna 2](image-18.png)
+
+E cada subdiretório tem 2 ligações já que estão vazios.
 
 ## 7.3) Mudando permissões de arquivos e diretórios
 
@@ -269,6 +285,6 @@ No readme de introdução do repositório [aqui](/README.md) tem uma parte de li
 - [LPI](https://learning.lpi.org/pt/learning-materials/102-500/110/110.1/110.1_01/)
 - [Guia Linux](https://guialinux.uniriotec.br/permissao-de-acesso/)
 
-## conteúdo da aula não concluído
+## conteúdo da aula concluído
 
-![linux vs windows](linuxvswin11.jpg)
+![imagem](image-19.png)

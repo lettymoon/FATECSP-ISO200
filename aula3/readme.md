@@ -94,7 +94,7 @@ A localização dos diretórios e de alguns arquivos essenciais, é definida no 
 
 ![arvore-diretorios](diretorios-linux.jpg)
 
-Veja mais [aqui](https://mange.ifrn.edu.br/site/doc-ubuntu-fr2pt_br/arvore-de-diretorios.html) ou [aqui](http://tics.ifsul.edu.br/matriz/conteudo/disciplinas/so/uc/1/2.html)
+Veja mais [aqui](https://mange.ifrn.edu.br/site/doc-ubuntu-fr2pt_br/arvore-de-diretorios.html), [aqui](http://tics.ifsul.edu.br/matriz/conteudo/disciplinas/so/uc/1/2.html) e [aqui](https://canaltech.com.br/linux/entendendo-a-estrutura-de-diretorios-do-linux/).
 
 Também tem essa imagem mais explicativa:
 

@@ -259,7 +259,7 @@ Resumo:
 ``` mkdir -p dir1/dir2/dir3 ```| para criar mais de um diretório em um único comando.
 ``` touch meuarquivo.txt ```| vai criar um  arquivo vazio.
 ``` touch arquivo1.txt arquivo2.txt arquivo3.txt ```| pode criar mais de um arquivo por vez.
-``` ls -l carta ``` | vai listar todos os arquivos que comecem com "**carta...**".
+``` ls -l carta* ``` | vai listar todos os arquivos que comecem com "**carta...**".
 
 ## Bibliografia
 

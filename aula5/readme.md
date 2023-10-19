@@ -261,6 +261,14 @@ python3 arquivo.py
 
 ![python3](image-19.png)
 
+Agora sua missão é pesquisar como executar um código em Pascal no linux.
+
+Utilize esse [site](https://aoredordoburacotudoebeira.wordpress.com/2012/03/23/free-pascal-no-windows-e-no-linux/).
+
 ## Bibliografia
 
 * [Guia Linux](https://mateusmuller.me/2019/11/06/sudo-guia-completo-do-comando-sudo-no-linux/)
+
+## conteúdo concluído
+
+## conteúdo extra concluído

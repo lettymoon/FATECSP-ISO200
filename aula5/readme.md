@@ -68,9 +68,9 @@ Para atribuir as mesmas permissões ao usuário terar que utilizar os zeros apó
 |Comando|Descrição|
 |------|------|
 |```chmod 111 <arquivo>```|Todos podem executar o arquivo.|
-|```chmod 222 <arquivo>```|Todos podem escrever no arquivo.|
-|```chmod 700 <arquivo>```|Somente o dono do arquivo tem todas as permissões.|
-|```chmod 600 <arquivo>```|O dono do arquivo pode ler e escrever.|
+|```chmod 222 <arquivo>```|Todos podem gravar no arquivo.|
+|```chmod 700 <arquivo>```|O dono do arquivo tem todas as permissões.|
+|```chmod 600 <arquivo>```|O dono do arquivo pode ler e gravar.|
 |```chmod 777 <arquivo>```|Todas as permissões para todos.|
 
 ## Permissão SUID, SGID e Sticky bit no formato octal
@@ -128,7 +128,7 @@ Para saber quais comandos sudo são permitidos ao seu usuário use: ``` sudo -l 
 
 ![sudo -l](image-10.png)
 
-Mas, e o comando ``` su ```?
+Mas e o comando ``` su ```?
 
 O comando su é para trocar de usuário, não necessariamente ser usuário root, o “s” significa “swich” e o “u” significa “user”, isto é, “switch user” (trocar de usuário).
 
@@ -197,7 +197,7 @@ Obs: Utilizando o modo root, use sudo ;)
 
 ## Conteúdo extra: compilando códigos no linux
 
-No linux não é necessário utilizar compiladores online ou compiladores como o Pelles C para executar códigos em C ou outras linguagens como C++, Python, Go, Fortran, COBOL, Pascal e etc. Você pode fazer isso utilizando o terminal e instalando um compilador da linguagem que você está usando.
+No linux não é necessário utilizar compiladores online ou compiladores como o Pelles C para executar códigos em C ou outras linguagens como C++, Python, Golang, Fortran, COBOL, Pascal e etc. Você pode fazer isso utilizando o terminal e instalando um compilador da linguagem que você está usando.
 
 Por exemplo, para instalar o compilador da linguagem C e C++:
 

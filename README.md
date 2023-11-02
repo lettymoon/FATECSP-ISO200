@@ -65,4 +65,5 @@ Instale o [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) ou utlize
 - [FreeCodeCamp - Shell Scripting for Beginners](https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/)
 - [LPI - Materiais Didáticos](https://learning.lpi.org/pt/learning-materials/learning-materials/)
 - [TryHackMe - Linux Fundamentals Part 1](https://tryhackme.com/room/linuxfundamentalspart1)
-- [Red Hat - Understanding Linux]([linux](https://www.redhat.com/en/topics/linux))
+- [Red Hat - Understanding Linux](https://www.redhat.com/en/topics/linux)
+- [Guia Linux](https://guialinux.uniriotec.br/)

@@ -5,7 +5,9 @@
 
 Repositório da disciplina ISO200 Sistemas Operacionas II. FATEC São Paulo. 02/2023
 
-Disciplina ministrada utlizando o Debian e suas versões.
+Este respositório contém um resumo do conteúdo ministrado em aula.
+
+Disciplina ministrada utilizando o Debian e suas versões.
 
 Professor: Arnaldo Rodrigues Teixeira (DTI-FATECSP)
 
@@ -14,9 +16,15 @@ Professor: Arnaldo Rodrigues Teixeira (DTI-FATECSP)
 - [Sistemas Operacionais II](#sistemas-operacionais-ii)
   - [Index](#index)
   - [Instalando](#instalando)
+  - [Gitbook](#gitbook)
   - [Conteúdo](#conteúdo)
-    - [Operando o sistema](#operando-o-sistema)
-  - [Aulas](#aulas)
+    - [Introdução](#introdução)
+    - [Diretórios e arquivos](#diretórios-e-arquivos)
+    - [Administração Básica](#administração-básica)
+    - [Proecessos](#proecessos)
+    - [Gerenciamento do usuário](#gerenciamento-do-usuário)
+    - [Instalando pacotes](#instalando-pacotes)
+    - [Comandos gerais](#comandos-gerais)
   - [Links Didáticos](#links-didáticos)
 
 ## Instalando
@@ -24,9 +32,13 @@ Professor: Arnaldo Rodrigues Teixeira (DTI-FATECSP)
 Se não estiver utlizando o linux (debian ou ubuntu):
 Instale o [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) ou utlize o [VituralBox](https://www.virtualbox.org/)
 
+## Gitbook
+
+Acesse [aqui]()
+
 ## Conteúdo
 
-### Operando o sistema
+### [Introdução](01-introducao)
 
 - Acessando o GNU/Linux
 - Trocando a senha
@@ -34,12 +46,14 @@ Instale o [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) ou utlize
 - Arquivos de personalização
 - Edição de texto
 - Interpretadores de comandos mais utilizados
-- Diretórios e arquivos
-  - Estrutura padrão dos diretórios (stndfs)
-  - Tipos de arquivos
-  - Mudando permissões de arquivos e diretórios
-  - Mudando dono/grupo de arquivos e diretórios
-  - Permissõe geradas por padrão
+
+### [Diretórios e arquivos](02-diretorios-arquivos)
+
+- Estrutura padrão dos diretórios (stndfs)
+- Tipos de arquivos
+- Mudando permissões de arquivos e diretórios
+- Mudando dono/grupo de arquivos e diretórios
+- Permissõe geradas por padrão
 - Redirecionando a entrada e saída padrão
 - Metacaracteres e pipes
 - Manipulando arquivos e diretórios
@@ -49,13 +63,41 @@ Instale o [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) ou utlize
 - Manuais de comandos
   - man
 
-## Aulas
+### [Administração Básica](03-admin-basica)
 
-- [Aula 01](aula1)
-- [Aula 02](aula2)
-- [Aula 03](aula3)
-- [Aula 04](aula4)
-- [Aula 05](aula5)
+- Desligando e reiniciando o sistema (CLI)
+- Sistemas de arquivos
+  - Inserindo um file-system na partição ou volume
+  - Montar e desmontar sistemas de arquivos
+  - Montagem e desmontagem através da linha de comando
+  - Montagem através de arquivos
+- Integridade das partições
+
+### [Proecessos](04-processos)
+
+- Executando um programa
+- Processo em segundo plano (background)
+- Controlando prioridades
+- Informações sobre processos
+- Terminando um processo
+
+### [Gerenciamento do usuário](05-gerenciamento-usuario)
+
+- Adicionar usuário
+- Excluir usuário e grupo
+- Adicionar usuário a um grupo alternativo
+- Arquivos afetados pela inclusão/exclusão de usuário
+
+### [Instalando pacotes](06-instalando-pacotes)
+
+- Utilizando o apt-get
+- Instalando pacotes Debian *.deb
+
+### [Comandos gerais](07-comandos-gerais)
+
+- Comandos de manipulação de arquivos
+- Comandos para manipular diretórios
+- Comandos de ajuda e informativos
 
 ## Links Didáticos
 

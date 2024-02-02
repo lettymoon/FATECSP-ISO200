@@ -34,7 +34,9 @@ Instale o [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) ou utlize
 
 ## Gitbook
 
-Acesse [aqui]()
+Guia de estudos da disciplina no gitbook.
+
+Acesse [aqui](https://lettymoon.gitbook.io/iso200-sistemas-operacionais-ii/)
 
 ## Conteúdo
 

@@ -40,7 +40,7 @@ Acesse [aqui](https://lettymoon.gitbook.io/iso200-sistemas-operacionais-ii/)
 
 ## Conteúdo
 
-### [Introdução](01-introducao)
+### Introdução
 
 - Acessando o GNU/Linux
 - Trocando a senha
@@ -49,7 +49,7 @@ Acesse [aqui](https://lettymoon.gitbook.io/iso200-sistemas-operacionais-ii/)
 - Edição de texto
 - Interpretadores de comandos mais utilizados
 
-### [Diretórios e arquivos](02-diretorios-arquivos)
+### Diretórios e arquivos
 
 - Estrutura padrão dos diretórios (stndfs)
 - Tipos de arquivos
@@ -65,7 +65,7 @@ Acesse [aqui](https://lettymoon.gitbook.io/iso200-sistemas-operacionais-ii/)
 - Manuais de comandos
   - man
 
-### [Administração Básica](03-admin-basica)
+### Administração Básica
 
 - Desligando e reiniciando o sistema (CLI)
 - Sistemas de arquivos
@@ -75,7 +75,7 @@ Acesse [aqui](https://lettymoon.gitbook.io/iso200-sistemas-operacionais-ii/)
   - Montagem através de arquivos
 - Integridade das partições
 
-### [Proecessos](04-processos)
+### Proecessos
 
 - Executando um programa
 - Processo em segundo plano (background)
@@ -83,19 +83,19 @@ Acesse [aqui](https://lettymoon.gitbook.io/iso200-sistemas-operacionais-ii/)
 - Informações sobre processos
 - Terminando um processo
 
-### [Gerenciamento do usuário](05-gerenciamento-usuario)
+### Gerenciamento do usuário
 
 - Adicionar usuário
 - Excluir usuário e grupo
 - Adicionar usuário a um grupo alternativo
 - Arquivos afetados pela inclusão/exclusão de usuário
 
-### [Instalando pacotes](06-instalando-pacotes)
+### Instalando pacotes
 
 - Utilizando o apt-get
 - Instalando pacotes Debian *.deb
 
-### [Comandos gerais](07-comandos-gerais)
+### Comandos gerais
 
 - Comandos de manipulação de arquivos
 - Comandos para manipular diretórios
@@ -111,3 +111,6 @@ Acesse [aqui](https://lettymoon.gitbook.io/iso200-sistemas-operacionais-ii/)
 - [TryHackMe - Linux Fundamentals Part 1](https://tryhackme.com/room/linuxfundamentalspart1)
 - [Red Hat - Understanding Linux](https://www.redhat.com/en/topics/linux)
 - [Guia Linux](https://guialinux.uniriotec.br/)
+
+  ## License
+  Este projeto está licenciado sob a [Licença MIT](LICENSE).

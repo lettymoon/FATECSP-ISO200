@@ -112,5 +112,8 @@ Acesse [aqui](https://lettymoon.gitbook.io/iso200-sistemas-operacionais-ii/)
 - [Red Hat - Understanding Linux](https://www.redhat.com/en/topics/linux)
 - [Guia Linux](https://guialinux.uniriotec.br/)
 
-  ## License
-  Este projeto está licenciado sob a [Licença MIT](LICENSE).
+## 📜 Licença
+Este projeto está disponível sob a licença **Creative Commons BY-NC-ND 4.0 Internacional**.  
+Isso significa que você pode compartilhar e redistribuir o material, desde que atribua os créditos à autora, **sem uso comercial e sem modificações**.  
+
+Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
